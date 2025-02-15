@@ -1,0 +1,650 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0944
+  position -0.040040797706117584 -0.013073827342012454 4.155076316418801
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2.5 2.5
+  floorAppearance Appearance {
+    material Material {
+      diffuseColor 0.435294 0.435294 0.435294
+      emissiveColor 0.878431 0.878431 0.878431
+    }
+  }
+}
+Wall {
+  translation 1.005 -0.88 0
+  rotation 0 0 1 -1.5707953071795862
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.505 -1.125 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(1)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1.125 -0.75 0
+  name "wall(2)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.255 -0.75 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(3)"
+  size 1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.005 -1 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(4)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.495 -1.125 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(5)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1.125 -0.995 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(6)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1.125 -0.495 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(7)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1.125 0.755 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(10)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.995 1.125 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(8)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.495 1 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(9)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1.125 0.495 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(11)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1 -0.245 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(12)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.51 -0.75 0
+  name "wall(13)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.755 -0.88 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(14)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.505 -0.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(16)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.76 -0.495 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(17)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.25 -0.245 0
+  name "wall(18)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.125 -0.495 0
+  name "wall(19)"
+  size 0.75 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.245 -0.115 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(20)"
+  size 0.75 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.01 -0.005 0
+  name "wall(21)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.255 0.125 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(22)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.375 0.255 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(23)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 1.005 0.01 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(24)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.5 -0.755 0
+  name "wall(25)"
+  size 1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.255 -0.875 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(26)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.745 -0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(27)"
+  size 1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.615 -0.245 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(28)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.875 0.245 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(36)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.495 0.26 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(29)"
+  size 1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.135 0.505 0
+  name "wall(30)"
+  size 1.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.8 1
+    }
+  }
+}
+Wall {
+  translation -0.00499993 0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(31)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.125 0.745 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(32)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.755 0.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(33)"
+  size 1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 0.885 0.995 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(34)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -1.005 0.135 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(35)"
+  size 1.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.875 0.755 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(37)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.745 0.75 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(38)"
+  size 0.5 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.24 0.995 0
+  rotation 0 0 1 1.01503e-06
+  name "wall(39)"
+  size 1 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation -0.245 0.875 0
+  rotation 0 0 1 -1.5707953071795862
+  name "wall(40)"
+  size 0.25 0.01 0.1
+  appearance Roughcast {
+    colorOverride 0.301961 0.301961 0.301961
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+E-puck {
+  hidden position_0_0 618.9468994936865
+  hidden position_0_1 642.4736513063314
+  hidden linearVelocity_0 -0.0353656286344524 0.07169872121037059 2.1733978229335544e-08
+  hidden angularVelocity_0 0.0032015150655198468 0.0015789742418833303 -4.577800773964074e-08
+  hidden rotation_1 0 1 0 5.137734407833424
+  hidden linearVelocity_1 -0.03535718202181936 0.07168299399543338 -4.4829507413468747e-10
+  hidden angularVelocity_1 -3.5841360990936924 -1.7678867196629293 -2.486636356948357e-07
+  hidden rotation_2 0 -1 0 1.850237329941788
+  hidden linearVelocity_2 -0.03535829329351135 0.07168244596053441 -6.620991253426533e-10
+  hidden angularVelocity_2 -3.5841359303750195 -1.7678870617240277 1.814269934061721e-07
+  translation 1.095983443499632 -0.3958630557987163 -6.395106289666316e-05
+  rotation -0.0005514252530649709 0.0003428543499640827 -0.9999997891905203 -2.0290321609589315
+  controller "IESLRobot"
+  emitter_channel 4
+  receiver_channel 4
+  turretSlot [
+    DistanceSensor {
+      translation 0.04 0 0
+      name "front_ds"
+    }
+    DistanceSensor {
+      translation 0.01 0.033 0
+      rotation 0 0 1 1.5708
+      name "left_ds"
+    }
+    DistanceSensor {
+      translation 0.03 0.026 0
+      rotation 0 0 -1 -0.7854053071795866
+      name "leftcorner_ds"
+    }
+    DistanceSensor {
+      translation 0.01 -0.033 0
+      rotation 0 0 1 -1.5707953071795862
+      name "right_ds"
+    }
+    DistanceSensor {
+      translation 0.03 -0.023 0
+      rotation 0 0 -1 0.785397
+      name "rightcorner_ds"
+    }
+    Camera {
+      translation 0.0242103 -0.00496456 0
+      rotation 0 0 -1 0.124882
+      name "camera1"
+      translationStep 0
+      rotationStep 0
+      recognitionColors [
+        0 0 0
+      ]
+      fieldOfView 1
+      height 58
+      bloomThreshold 3
+      recognition Recognition {
+      }
+    }
+  ]
+}
+Solid {
+  translation -1.14 -0.492 0.05
+  rotation 1 0 0 3.14159
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.01 0.1
+      }
+    }
+  ]
+  name "green"
+  recognitionColors [
+    0 1 0
+  ]
+}
+Solid {
+  translation 0.95 -0.242 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.647059 0.411765 0.117647
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.01 0.1
+      }
+    }
+  ]
+  name "brown"
+  locked TRUE
+  recognitionColors [
+    0.647059 0.411765 0.117647
+  ]
+}
+Solid {
+  translation 0.56 -0.492 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.01 0.1
+      }
+    }
+  ]
+  name "pink"
+  recognitionColors [
+    1 0 1
+  ]
+}
+Solid {
+  translation 0.06 -1.254 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 1 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.01 0.1
+      }
+    }
+  ]
+  name "yellow"
+  recognitionColors [
+    1 1 0
+  ]
+}
+Solid {
+  translation 0.7 0.501 0.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        metalness 0
+      }
+      geometry Box {
+        size 0.1 0.01 0.1
+      }
+    }
+  ]
+  name "red"
+  recognitionColors [
+    1 0 0
+  ]
+}
